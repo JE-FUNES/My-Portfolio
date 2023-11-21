@@ -56,8 +56,7 @@ function App() {
   };
 
   return (
-
-      <>
+    <>
       <svg id="noise-svg">
         <filter id="noiseFilter">
           <feTurbulence type="fractalNoise" baseFrequency="1.5" numOctaves="3" stitchTiles="stitch" />
@@ -108,24 +107,24 @@ function App() {
   <div className="display">
     <div className="row">
       <div className="col">
-        <div>0</div>
+        <div>8</div>
         <div id="char01">{displayStr[0]}</div>
         <div id="char02">{displayStr[0]}</div>
       </div>
       <div className="col">
-        <div>0</div>
+        <div>8</div>
         <div id="char11"></div>
         <div id="char12">{displayStr[1]}</div>
       </div>
     </div>
     <div className="row">
       <div className="col">
-        <div>0</div>
+        <div>8</div>
         <div id="char21"></div>
         <div id="char22">{displayStr[2]}</div>
       </div>
       <div className="col">
-        <div>0</div>
+        <div>8</div>
         <div id="char31"></div>
         <div id="char32">{displayStr[3]}</div>
       </div>
@@ -134,12 +133,12 @@ function App() {
     <div className="small-row">
       <div className="row">
         <div className="col">
-          <div>0</div>
+          <div>8</div>
           <div id="char41"></div>
           <div id="char42">{displayStr[5]}</div>
         </div>
         <div className="col">
-          <div>0</div>
+          <div>8</div>
           <div id="char51"></div>
           <div id="char52">{displayStr[6]}</div>
         </div>
@@ -147,36 +146,36 @@ function App() {
     </div>
     <div className="row">
       <div className="col">
-        <div>0</div>
-        <div id="char61">J</div>
-        <div id="char62">J</div>
+        <div>8</div>
+        <div id="char61"></div>
+        <div id="char62">{displayStr[8]}</div>
       </div>
       <div className="col">
-        <div>0</div>
+        <div>8</div>
         <div id="char71"></div>
-        <div id="char72">E</div>
+        <div id="char72">{displayStr[9]}</div>
       </div>
     </div>
     <div className="row">
       <div className="col">
-        <div>0</div>
+        <div>8</div>
         <div id="char81"></div>
-        <div id="char82">F</div>
+        <div id="char82">{displayStr[10]}</div>
       </div>
       <div className="col">
-        <div>0</div>
+        <div>8</div>
         <div id="char91"></div>
-        <div id="char92">A</div>
+        <div id="char92">{displayStr[11]}</div>
       </div>
     </div>
     <div className="row">
       <div className="col">
-        <div>0</div>
+        <div>8</div>
         <div id="char101"></div>
         <div id="char102">{displayStr[12]}</div>
       </div>
       <div className="col">
-        <div>0</div>
+        <div>8</div>
         <div id="char111"></div>
         <div id="char112">{displayStr[13]}</div>
       </div>
